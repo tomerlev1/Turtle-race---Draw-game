@@ -55,7 +55,7 @@ def start_game(color, pos, shape, t_list):
       tur.penup()
       tur.forward(random.randint(5, 15))
       tur.pendown()
-      if tur.position()[0] > 240:
+      if tur.position()[0] > 230:
         is_on = False
         color_winner = tur.color()[0]
         if color_winner == user_bet:
